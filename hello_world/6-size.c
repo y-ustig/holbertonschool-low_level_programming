@@ -1,10 +1,9 @@
 #include<stdio.h>
 /**
- *main imprime lo que estamos buscando
+ *main print size
  *
  *return vuelve the valor zero
  */
-
 int main(void)
 {
 int intType;
