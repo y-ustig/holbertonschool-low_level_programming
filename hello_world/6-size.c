@@ -1,11 +1,12 @@
 #include<stdio.h>
 /**
- * main - imprime
- * size tamaño
- * return 0
+ *main imprime lo que estamos buscando
+ *size tamaño
+ *return vuelve the valor zero
  */
-int main(void) 
-{int intType;
+int main(void)
+{
+int intType;
 float floatType;
 long int longintType;
 char charType;
