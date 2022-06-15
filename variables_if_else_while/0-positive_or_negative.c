@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-*main searchthecommand
-*
-*return the valor zero
-*
+*main - Entry point
+*Description the program´s description
+*Return: the valor zero
 */
-
 int main(void)
 {
 int n;
