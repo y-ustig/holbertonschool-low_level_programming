@@ -2,19 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ *main - print the vocabulario
  *
- * main - print the vocabulario
- *
- * Return: return zero
+ *Return: return zero
  */
 
 int main(void)
-{	
+{
 char abc = 'a';
- while(abc <= 'z')
+while (abc <= 'z')
 {
 putchar(abc);
 abc++;
 }
 return (0);
-}	
+}
