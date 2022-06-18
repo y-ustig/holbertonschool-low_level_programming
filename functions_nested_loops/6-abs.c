@@ -1,10 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- *main - print the vocabulario
- *
- *Return: return zero
+ *_isalpha - print the 1 when is mayus or 0 when is lower
+ *@int soul
+ *Return: retorna 1 o 0 si no
  */
-
-int main(void)
+int _abs(int number_absolute)
+{
+if (number_absolute < 0)
+{
+return (number_absolute * -1);
+}
+return (number_absolute);
+}
