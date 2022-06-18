@@ -2,7 +2,7 @@
 /**
  *_islower - print the 1 when is mayus or 0 when is lower
  *@c: this is variable of alphabet
- *Return: retorna 1 o 0 si no 
+ *Return: retorna 1 o 0 si no
  */
 int _isalpha(int c)
 {
