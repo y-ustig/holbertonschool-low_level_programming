@@ -1,10 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- *main - print the vocabulario
- *
- *Return: return zero
+ *print_last_digit - the function return the last number
+ *@number: various number
+ *Return: return the last number
  */
-
-int main(void)
+int print_last_digit(int number)
+{
+int digit;
+digit = number % 10;
+{
+return (digit);
+}
+}
