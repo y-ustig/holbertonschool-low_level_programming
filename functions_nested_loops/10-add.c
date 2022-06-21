@@ -1,10 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- *main - print the vocabulario
+ *add - the function realiced the suma
  *
- *Return: return zero
+ *@a: numero enter for the suma
+ *
+ *@b: number enter for the suma
+ *
+ *Return: return the result of a + b
  */
-
-int main(void)
+int add(int a, int b)
+{
+int suma;
+suma = a + b;
+return (suma);
+}
