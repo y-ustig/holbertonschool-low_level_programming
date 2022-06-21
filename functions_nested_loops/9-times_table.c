@@ -12,6 +12,7 @@ char eat = ',';
 char space = ' ';
 char space_t = ' ';
 int resultado;
+int resultado2;
 for (new_line = 0; new_line <= 9; new_line++)
 {
 for (number = 0; number <= 9; number++)
@@ -25,7 +26,9 @@ if (number <= 8)
 _putchar(eat);
 _putchar(space);
 }
-if (resultado <= 9 && number <= 8)
+resultado2 = (number + 1) * new_line;
+
+if (resultado2 <= 9 && number <= 8)
 _putchar(space_t);
 }
 _putchar('\n');
