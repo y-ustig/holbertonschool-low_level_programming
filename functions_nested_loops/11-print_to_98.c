@@ -1,10 +1,30 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- *main - print the vocabulario
- *
- *Return: return zero
+ *print_to_98 - the function return all number until 98
+ *@n: valor de numbers
  */
-
-int main(void)
+void print_to_98(int n)
+{
+int z;
+if (n == 98)
+	printf("%i", n);
+else if (n  > 98)
+{
+	for (z = n; z >= 98; z--)
+	{
+		printf("%i", z);
+		if (z !=98)
+			printf(",");
+	}
+}
+else if (n < 98)
+{
+	for (z = n; z <= 98; z++)
+	{
+		printf ("%i", z);
+		if (z != 98)
+			printf(",");
+	}
+}
+printf("\n");
+}
