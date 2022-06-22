@@ -14,7 +14,10 @@ else if (n  > 98)
 	{
 		printf("%i", z);
 		if (z !=98)
+		{
 			printf(",");
+			printf(" ");
+		}
 	}
 }
 else if (n < 98)
@@ -23,7 +26,10 @@ else if (n < 98)
 	{
 		printf ("%i", z);
 		if (z != 98)
+		{
 			printf(",");
+			printf(" ");
+		}
 	}
 }
 printf("\n");
