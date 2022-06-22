@@ -13,7 +13,7 @@ else if (n  > 98)
 	for (z = n; z >= 98; z--)
 	{
 		printf("%i", z);
-		if (z !=98)
+		if (z != 98)
 		{
 			printf(",");
 			printf(" ");
@@ -24,7 +24,7 @@ else if (n < 98)
 {
 	for (z = n; z <= 98; z++)
 	{
-		printf ("%i", z);
+		printf("%i", z);
 		if (z != 98)
 		{
 			printf(",");
