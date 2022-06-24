@@ -5,13 +5,11 @@
  *@b: the number z
  *@a: the number x
  *@resultado: producto
- *Return: retorna los valores
+ *Resultado: producto 2
  */
 int mul(int a, int b)
 {
 int resultado = a * b;
-{
-printf("%d", resultado);
-}
-return (0);
+
+return (resultado);
 }
