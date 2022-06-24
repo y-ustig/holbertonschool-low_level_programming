@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - function for print numbers
- * @numbers: numbers
- * Return - the valor
+ *print_numbers - function for print numbers
  */
 
 void print_numbers(void)
