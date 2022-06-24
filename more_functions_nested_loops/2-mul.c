@@ -4,11 +4,12 @@
  *mul - functions for multiplicar more numbers
  *@b: the number z
  *@a: the number x
- *@resultado: producto
- *Resultado: producto 2
+ *Return: producto 2
  */
+
 int mul(int a, int b)
 {
+
 int resultado = a * b;
 
 return (resultado);
